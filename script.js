@@ -6,7 +6,7 @@ class Resident {
         this.gender = gender;
     }
 
-    // Giving info about resident
+    // Getting info about resident
     getInfo() {
         return `Name: ${this.name}, Gender: ${this.gender}`;
     }
